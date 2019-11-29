@@ -20,11 +20,15 @@ img {
 li {
   list-style: none;
 }
+.button {
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 /* ヘッダー
 ---------------*/
 header {
-  height: 100px;
+  height: 80px;
 }
 header nav {
   display: flex;
@@ -33,6 +37,45 @@ header nav {
 header ul {
   display: flex;
 }
+.header-left {
+  display: flex;
+}
+.header-left ul {
+  display: flex;
+}
 .header-left li{
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header-right {
+  margin-right: 50px;
+  background: gray;
+}
+.header-right ul {
+  display: flex;
+}
+.header-right li{
   padding: 30px 15px;
+  display: flex;
+  /* justify-content: center; */
+  background: green;
+}
+.expected-monthly-income-button {
+  width: 20px;
+}
+.expected-monthly-income {
+  line-height: 1;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+.button-li {
+  background: skyblue;
+  height: 100%;
+}
+.header-button {
+  display: inline-block;
+  color: white;
+  background: red;
 }
