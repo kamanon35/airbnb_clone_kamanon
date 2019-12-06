@@ -111,3 +111,7 @@ header nav {
   border-bottom: 2px #eee solid;
   background: green;
 }
+.center-line {
+  width: 60px;
+  margin: auto;
+}

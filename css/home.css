@@ -84,6 +84,7 @@
   display: flex;
   height: 200px;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 .airbnb-info h3 {
   font-size: 1.4rem;
@@ -97,5 +98,41 @@
   margin-right: 80px;
 }
 
-/* underline
+/* hosting-step
 --------------- */
+.hosting-step {
+  height: 800px;
+}
+.hosting-step h1 {
+  font-size: 3.8rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.hosting-step .container {
+  display: flex;
+}
+.hosting-step .grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.hosting-step-section {
+  margin: 30px 10%;
+  height: 300px;
+  width: 300px;
+  background: blue;
+}
+.section-num {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgb(42, 110, 0);
+  position: relative;
+}
+.section-num p {
+  color: white;
+  position: absolute;
+  top: 20;
+  left: 50;
+}
