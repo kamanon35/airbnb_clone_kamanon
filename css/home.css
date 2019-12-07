@@ -101,10 +101,10 @@
 /* hosting-step
 --------------- */
 .hosting-step {
-  height: 800px;
+  height: 600px;
 }
 .hosting-step h1 {
-  font-size: 3.8rem;
+  font-size: 3.2rem;
   letter-spacing: 0.01rem;
   text-align: center;
   margin-top: 5px;
@@ -112,27 +112,48 @@
 .hosting-step .container {
   display: flex;
 }
-.hosting-step .grid {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
 .hosting-step-section {
-  margin: 30px 10%;
-  height: 300px;
-  width: 300px;
-  background: blue;
+  margin: 30px 10px;
+  height: 500px;
+  width: 500px;
 }
 .section-num {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background: rgb(42, 110, 0);
+  background: rgb(59, 133, 115);
   position: relative;
 }
 .section-num p {
   color: white;
   position: absolute;
-  top: 20;
-  left: 50;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%));
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+}
+.hosting-step-section h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+.section-description {
+  margin-top: 10px;
+  line-height: 1.25;
+  font-size: 1.1rem;
+}
+.hosting-step-section a {
+  color: rgb(59, 133, 115);
+}
+.hosting-step-section a:hover {
+text-decoration: underline;
+}
+
+/* host_practice_sample
+--------------- */
+.host_practice_sample {
+  height: 600px;
+}
+.host_practice_sample .container {
+  display: flex;
 }
