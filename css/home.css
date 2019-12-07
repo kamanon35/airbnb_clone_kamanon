@@ -101,7 +101,7 @@
 /* hosting-step
 --------------- */
 .hosting-step {
-  height: 600px;
+  height: 550px;
 }
 .hosting-step h1 {
   font-size: 3.2rem;
@@ -149,11 +149,37 @@
 text-decoration: underline;
 }
 
-/* host_practice_sample
+/* host-practice-sample
 --------------- */
-.host_practice_sample {
+.host-practice-sample {
   height: 600px;
 }
-.host_practice_sample .container {
+.host-practice-sample .container {
   display: flex;
+}
+.host-practice-sample-left {
+  width: 38%;
+}
+.host-practice-sample-right {
+  width: 50%;
+}
+.host-practice-sample-left blockquote {
+  font-size: 2rem;
+}
+.host-practice-sample-left p {
+  margin-top: 5px;
+}
+.host-practice-sample-button {
+  margin-top: 10px;
+}
+.host-practice-sample-button a {
+  display: inline-block;
+  color: #432;
+  padding: 10px 20px;
+  border: 2px #432 solid;
+}
+.host-practice-sample-right {
+  background-image: url(../images/home/8e6c68cc-e714-4849-bad9-464abf58e84a.jpg);
+  min-height: 100vh;
+  background-size: cover;
 }
