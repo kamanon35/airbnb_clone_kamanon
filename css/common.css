@@ -43,6 +43,19 @@ select::-ms-expand {
   box-shadow: 0 0 5px 4px rgb(155, 209, 218);
   transition: box-shadow .15s ease-in-out;
 }
+.section-subtitle {
+  font-size: 3.2rem;
+  letter-spacing: 0.01rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.hosting-guide-link {
+  color: rgb(59, 133, 115);
+}
+.fa-check {
+  color: rgb(59, 133, 115);
+  font-size: 1.5rem;
+}
 /* ヘッダー
 ---------------*/
 header {
@@ -113,6 +126,7 @@ header nav {
 }
 .center-line {
   width: 60px;
+  border: 1px #bbb solid;
   margin: auto;
 }
 /* font-awesome */

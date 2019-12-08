@@ -103,12 +103,6 @@
 .hosting-step {
   height: 550px;
 }
-.hosting-step h1 {
-  font-size: 3.2rem;
-  letter-spacing: 0.01rem;
-  text-align: center;
-  margin-top: 5px;
-}
 .hosting-step .container {
   display: flex;
 }
@@ -142,9 +136,6 @@
   line-height: 1.25;
   font-size: 1.1rem;
 }
-.hosting-step-section a {
-  color: rgb(59, 133, 115);
-}
 .hosting-step-section a:hover {
 text-decoration: underline;
 }
@@ -152,7 +143,7 @@ text-decoration: underline;
 /* host-practice-sample
 --------------- */
 .host-practice-sample {
-  height: 600px;
+  height: 700px;
 }
 .host-practice-sample .container {
   display: flex;
@@ -179,7 +170,54 @@ text-decoration: underline;
   border: 2px #432 solid;
 }
 .host-practice-sample-right {
+  margin-left: 100px;
   background-image: url(../images/home/8e6c68cc-e714-4849-bad9-464abf58e84a.jpg);
-  min-height: 100vh;
   background-size: cover;
+}
+.security {
+  margin-bottom: 50px;
+}
+.security .container {
+  display: flex;
+  height: 300px;
+}
+.security-left p {
+  margin-bottom: 20px;
+}
+.security-right {
+  margin-left: 80px;
+}
+.security-right li {
+  margin-bottom: 5px;
+}
+.security-right .fa-check{
+  padding-right: 20px;
+}
+.host-img {
+  height: 580px;
+  width: 75%;
+  background-image: url(../images/home/bb358a46-fa25-4895-b5fd-048a386bdcac.jpg);
+  background-size: cover;
+}
+
+.easy-payment {
+  margin-top: 180px;
+  height: 600px;
+}
+.easy-payment .container {
+  display: flex;
+  margin-top: 20px;
+}
+.easy-payment .container h3 {
+  font-size: 1.5rem;
+}
+.easy-payment .container p {
+  margin-top: 20px;
+  line-height: 1.3;
+}
+.easy-payment-item {
+  margin-right: 60px;
+}
+.prompt-payment {
+  margin-bottom: 20px;
 }
