@@ -137,7 +137,7 @@
   font-size: 1.1rem;
 }
 .hosting-step-section a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* host-practice-sample
@@ -159,15 +159,6 @@ text-decoration: underline;
 }
 .host-practice-sample-left p {
   margin-top: 5px;
-}
-.host-practice-sample-button {
-  margin-top: 10px;
-}
-.host-practice-sample-button a {
-  display: inline-block;
-  color: #432;
-  padding: 10px 20px;
-  border: 2px #432 solid;
 }
 .host-practice-sample-right {
   margin-left: 100px;
@@ -202,7 +193,7 @@ text-decoration: underline;
 
 .easy-payment {
   margin-top: 180px;
-  height: 600px;
+  height: 430px;
 }
 .easy-payment .container {
   display: flex;
@@ -220,4 +211,54 @@ text-decoration: underline;
 }
 .prompt-payment {
   margin-bottom: 20px;
+}
+
+/* hosting-sample
+--------------- */
+.hosting-sample {
+  height: 600px;
+}
+.hosting-sample .container {
+  display: flex;
+}
+.hosting-sample-left {
+  height: 530px;
+  width: 52%;
+  background-image: url(../images/home/4e8524b4-205e-4fdf-9f0a-f1f36905c8f6.jpg);
+  background-size: cover;
+}
+.hosting-sample-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 80px;
+}
+.hosting-sample-right blockquote {
+  font-size: 2rem;
+}
+
+/* member-shared-dream
+--------------- */
+.member-shared-dream {
+  margin-top: 20px;
+  height: 350px;
+}
+.member-shared-dream .container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.host-count {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.host-count-supplement {
+  text-align: center;
+}
+
+/* airbnb-about
+--------------- */
+.airbnb-about {
+  margin-top: 50px;
+  height: 300px;
 }

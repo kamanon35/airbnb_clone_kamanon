@@ -129,6 +129,15 @@ header nav {
   border: 1px #bbb solid;
   margin: auto;
 }
+.host-practice-sample-button {
+  margin-top: 10px;
+}
+.host-practice-sample-button a {
+  display: inline-block;
+  color: #432;
+  padding: 10px 20px;
+  border: 2px #432 solid;
+}
 /* font-awesome */
 .fa-quote-left {
   color: #FDB32B;
