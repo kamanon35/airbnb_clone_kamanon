@@ -260,5 +260,20 @@
 --------------- */
 .airbnb-about {
   margin-top: 50px;
-  height: 300px;
+  height: 400px;
+}
+.airbnb-about .container {
+  display: flex;
+}
+.airbnb-about-right {
+  margin-left: 70px;
+}
+.airbnb-about-left, .airbnb-about-right {
+  width: 43%;
+}
+.airbnb-about-left h3 {
+  font-size: 1.5rem;
+}
+.airbnb-about-right p {
+  margin-bottom: 20px;
 }
