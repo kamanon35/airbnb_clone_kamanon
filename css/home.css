@@ -277,3 +277,40 @@
 .airbnb-about-right p {
   margin-bottom: 20px;
 }
+
+/* qa
+--------------- */
+.qa {
+  margin-top: 30px;
+  height: 400px;
+}
+.qa .container {
+  display: flex;
+}
+.qa-left, .qa-right {
+  width: 43%;
+  margin-top: 30px;
+}
+.qa-right {
+  margin-left: 70px;
+}
+.qa-link {
+  border-bottom: 1px #ced4da solid;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.qa-link a:hover {
+  text-decoration: underline;
+}
+
+/* more-detail
+--------------- */
+.more-detail {
+  margin-top: 500px;
+  height: 400px;
+  background: green;
+}
+.more-detail-sub-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
