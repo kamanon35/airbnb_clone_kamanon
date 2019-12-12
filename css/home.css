@@ -308,9 +308,76 @@
 .more-detail {
   margin-top: 500px;
   height: 400px;
-  background: green;
 }
 .more-detail-sub-title {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 18px;
+}
+.more-detail-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.way-advance-hosting-img {
+  background-image: url(https://a0.muscache.com/pictures/489faa5d-9519-48fa-aa0e-fe9673165e43.jpg);
+  background-size: cover;
+}
+.host-security-img {
+  background-image: url(https://a0.muscache.com/pictures/b77eb430-aa14-4ceb-a832-109341f798cd.jpg);
+  background-size: cover;
+}
+.money-plan-img {
+  background-image: url(https://a0.muscache.com/pictures/1ad4d764-38a6-464b-8fdd-b0f3339adf2f.jpg);
+  background-size: cover;
+}
+.more-detail-img {
+  height: 171px;
+  margin-bottom: 20px;
+}
+.preparation {
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+.way-advance-hosting-text {
+  margin-bottom: -5px;
+}
+
+/* listing
+--------------- */
+.listing {
+  background-image: url(https://a0.muscache.com/pictures/dbe25d99-6821-4e02-802f-fcd7aaef85bc.jpg);
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+.listing .container {
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.listing-sub-title {
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.listing-button {
+  height: 50px;
+  width: 45%;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow:2px 2px gray;
+}
+.listing-button:active {
+  transform: translateX(2px) translateY(2px);
+  box-shadow: none;
+}
+.listing-button a {
+  display: block;
+  color: #000;
+  text-align: center;
 }

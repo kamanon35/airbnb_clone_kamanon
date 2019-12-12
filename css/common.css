@@ -49,7 +49,7 @@ select::-ms-expand {
   text-align: center;
   margin-top: 5px;
 }
-.hosting-guide-link {
+.hosting-guide-link, .more-detail-link {
   color: rgb(59, 133, 115);
 }
 .fa-check {
@@ -111,6 +111,47 @@ header nav {
   padding: 5px 10px;
   background: red;
 }
+
+/* フッター
+--------------- */
+footer {
+  height: 400px;
+}
+.footer-line-full {
+  margin-top: 60px;
+  border: 1px #eee solid;
+}
+footer .container {
+  display: flex;
+  margin-top: 50px;
+}
+footer .container p {
+  font-weight: bold;
+}
+footer .container ul {
+  margin-top: 20px;
+}
+footer .container li {
+  margin-bottom: -5px;
+}
+.footer-content {
+  width: 17%;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-sns-icons .fab {
+  margin-right: 20px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-line-center {
+  margin-top: 20px;
+  border: 1px #eee solid;
+}
+/* 共通部品
+--------------- */
 .wrapper {
   max-width: 1150px;
   margin: 0 auto;
